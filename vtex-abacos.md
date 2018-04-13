@@ -199,3 +199,16 @@
 				* Valores de Encargos
 					$$ valorPago - (valorItens + valorFrete - valorDesconto); $$
 			* Executa uma criptogrtafia no campo de e-mail, CPF e CNPJ
+
+
+---
+
+# Regras
+
+## Prazos de entrega
+
+- **Se o canal de venda for B2W**
+	- Pega a data de criação destes pedido, soma-se mais 8 dias VTex (corridos) e mais dias que a VTex nos passa da transportadora.
+
+- **Se não for canal B2W**
+	- Data criação + Data Transportadora VTex.
