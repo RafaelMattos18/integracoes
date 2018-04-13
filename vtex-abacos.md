@@ -200,7 +200,6 @@
 					$$ valorPago - (valorItens + valorFrete - valorDesconto); $$
 			* Executa uma criptogrtafia no campo de e-mail, CPF e CNPJ
 
-
 ---
 
 # Regras
